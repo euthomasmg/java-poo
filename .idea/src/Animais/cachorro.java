@@ -129,6 +129,4 @@ public class cachorro {
                 "nome='" + nome + '\'' + 
                 '}';
     }
-        
-    
 }
