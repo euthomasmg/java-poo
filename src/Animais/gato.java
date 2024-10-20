@@ -1,14 +1,11 @@
 package Animais;
 
-public class gato extends animal{
+public class gato extends animal {
 
-    static int numeroDeGatos;
-
-    @Override
-    public String toString(){
-        return "Gato{" + 
-                "nome='" + nome + '\'' + 
-                '}';
+    // Construtor que chama o construtor da classe "animal"
+    public gato(String nome, String cor, double peso) {
+        super(nome, cor, peso); // Chama o construtor da classe "animal"
     }
 
+    // Outros métodos da classe gato
 }

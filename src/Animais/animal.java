@@ -17,7 +17,6 @@ public class animal {
     }
 
     protected animal(String nome, String cor, double peso){
-
         this.nome = nome;
         this.cor = cor;
         this.peso = peso;
