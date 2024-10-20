@@ -1,6 +1,4 @@
 import Animais.cachorro;
-import Animais.gato;
-import Animais.passaro;
 public class main {
     public static void main(String[] args) {
 
@@ -8,8 +6,10 @@ public class main {
 
         cachorro cachorro1 = new cachorro("Rex", "Preta", 30, 25, 5, "nada");
 
-        gato gato1 = new gato("Lua", "Cinza", 4.1);
+        gato gato1 = new gato("Lua", "Cinza", 3.5);
 
-        passaro passro1 = new passaro("Frajola", "Preto", 2);
+        passaro passaro1 = new passaro("Frajola", "Preta", 2.1);
+
+        cachorro1.soar();
     }
 }

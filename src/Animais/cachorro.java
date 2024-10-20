@@ -12,16 +12,15 @@ public class cachorro extends animal {
 
     //construtor padrão
 
-    public cachorro(){}
-
     //construtor adicionador
     
     public cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estadosDeEspirito) {
+        super(nome, cor, peso);
         this.nome = nome;
         this.cor = cor;
-        this.altura = altura;
         this.peso = peso;
-        this. tamanhoDoRabo = tamanhoDoRabo;
+        this.altura = altura;
+        this.tamanhoDoRabo = tamanhoDoRabo;
         this.estadosDeEspirito = estadosDeEspirito;
 
         numeroDeCachorros++;

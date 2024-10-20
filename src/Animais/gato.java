@@ -2,8 +2,6 @@ package Animais;
 
 public class gato extends animal{
 
-    //atributos
-
     static int numeroDeGatos;
 
     @Override
