@@ -19,6 +19,8 @@ public class gato{
         this.altura = altura;
         this.peso = peso;
         this.estadoDeEspirito = estadoDeEspirito;
+
+        numeroDeGatos ++;
     }
 
     void comer(){}

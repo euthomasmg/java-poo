@@ -15,8 +15,6 @@ public class cachorro {
     private int tamanhoDoRabo;
     private String estadosDeEspirito;
 
-    
-
     //construtor padrão
 
     public cachorro(){}
