@@ -7,7 +7,7 @@ public class passaro extends animal {
     @Override
     public String toString(){
         return "passaro{" + 
-                "nome='" + nome + '\'' + 
+                "nome='" + '\'' + 
                 '}';
     }
 

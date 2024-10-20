@@ -12,16 +12,16 @@ public class animal {
 
     protected void dormir(){}
 
-    public animal(String nome, String cor, double peso){
+    protected void soar(){
+        System.out.println("cri cri");
+    }
+
+    protected animal(String nome, String cor, double peso){
 
         this.nome = nome;
         this.cor = cor;
         this.peso = peso;
 
-    }
-
-    public void soar(){
-        System.out.println("cri cri");
     }
 
 }

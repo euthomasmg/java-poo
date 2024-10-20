@@ -9,7 +9,5 @@ public class main {
         gato gato1 = new gato("Lua", "Cinza", 3.5);
 
         passaro passaro1 = new passaro("Frajola", "Preta", 2.1);
-
-        cachorro1.soar();
     }
 }
