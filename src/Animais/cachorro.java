@@ -1,6 +1,6 @@
 package Animais;
 
-public class cachorro {
+public class cachorro extends animal {
 
     //variavel estatica
 
@@ -8,12 +8,7 @@ public class cachorro {
 
     //atributos
 
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
     private int tamanhoDoRabo;
-    private String estadosDeEspirito;
 
     //construtor padrão
 
@@ -92,12 +87,6 @@ public class cachorro {
 
     //métodos
 
-    public void comer() {}
-
-    public void soar() {
-        System.out.println("AU AU");
-    }
-    
     public String pegar() {
         return "Bolinha";
     }
